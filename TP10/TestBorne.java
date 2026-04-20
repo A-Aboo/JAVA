@@ -3,19 +3,13 @@ public class TestBorne{
         EntierBorne i = null;
         EntierBorne e = null;
         try{
-            i = new EntierBorne(50);
+            i = new EntierBorne(60);
+            e = i.somme(i);
         }catch(HorsBorneException h){
             System.out.println(h.getMessage());
         }
         System.out.println(i);
-        try {
-            
-            e = i.somme(i);
-        } catch (HorsBorneException h) {
-            // TODO: handle exception
-            System.out.println(h.getMessage());
-            
-        }
+
         System.out.println(e);
     }
 }
