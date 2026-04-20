@@ -14,8 +14,8 @@ public class EntierBorne{
     public EntierBorne somme (EntierBorne eb) throws HorsBorneException{
         return new EntierBorne(valeur + eb.valeur);
     }
-    public EntierBorne division(EntierBorne eb) throws DivisionParZeroException{
-        if (rb.valeur == 0) throw new DivisionParZeroException("Division par zero");
+    public EntierBorne division(EntierBorne eb) throws HorsBorneException, DivisionParZeroException{
+        if (eb.valeur == 0) throw new DivisionParZeroException("Division par Zero ");
         return new EntierBorne(valeur / eb.valeur);
     }
 }
