@@ -4,7 +4,7 @@ public class Coureur{
     private boolean possedeTemoin;
     public Coureur(int nb){
         this.numDossard = nb;
-        this.tempsAu100 = (int)(Math.random()*(16-12+1)+12);
+        this.tempsAu100 = (int)(Math.random()*(16-12)+12);
         this.possedeTemoin = false;
     }
     public Coureur(){
@@ -20,12 +20,17 @@ public class Coureur{
     }
 
     public void passeTemoin(Coureur c){
-        if( c.possedeTemoin != false){
-            setPossedeTemoin(c.possedeTemoin);
-            c.setPossedeTemoin(false);
+        if( possedeTemoin != false){
+            setPossedeTemoin(false);
+            c.setPossedeTemoin(true);
             System.out.println("moi coureur " + numDossard + " je passe le temoin au coureur " + c.numDossard);
         }
     }
+
+    public void courir(){
+        System.out.println("je suis le coureur " + numDossard + " et je cours");
+    }
+
     public int getNumDossard(){return numDossard;}
     public double getTempsAu100(){return tempsAu100;}
     public boolean getPossedeTemoin(){return possedeTemoin;}
