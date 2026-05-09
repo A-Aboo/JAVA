@@ -21,6 +21,17 @@ Le projet regroupe les exercices pratiques en Java autour des notions principale
 
 ---
 
+
+## ⚠️ Remarque
+
+<i> Ce dépôt regroupe les travaux pratiques réalisés dans le cadre de l’UE UL2IN002.  
+<i> Les supports et documents officiels du cours ne sont pas publiés dans ce dépôt.
+
+---
+
+
+
+
 ## 📂 Contenu du dépôt
 
 ### TP 1 — Introduction à Java — premiers pas
@@ -67,11 +78,127 @@ Gestion des erreurs, `try`, `catch`, `throws` et exceptions personnalisées.
 
 Lecture et écriture de fichiers, flux d’entrée/sortie et introduction aux patterns.
 
+
 ---
 
-##  Compilation et exécution
+## 🗂️ Arborescence du dépôt
 
-Compiler un fichier Java :
-
-```bash
-javac TestNomClasse.java
+```text
+├── TP01
+│   ├── ex6
+│   │   ├── Segment.java
+│   │   └── TestSegment.java
+│   ├── ex7
+│   │   ├── TestVillageois.java
+│   │   └── Villageois.java
+│   └── ex8
+│       ├── Lettre.java
+│       └── TestLettre.java
+├── TP02
+│   ├── ex13
+│   │   ├── AdresseWeb.java
+│   │   └── TestAdresseWeb.java
+│   ├── ex14
+│   │   ├── Coureur.java
+│   │   └── TestCoureur.java
+│   └── ex15
+│       ├── Complexe.java
+│       └── TestComplexe.java
+├── TP03
+│   ├── ex19
+│   │   ├── Cabine.java
+│   │   ├── Roue.java
+│   │   ├── TestTracteur.java
+│   │   └── Tracteur.java
+│   ├── ex20
+│   │   ├── Point.java
+│   │   ├── TestTriangle.java
+│   │   └── Triangle.java
+│   └── ex21
+│       ├── Personne.java
+│       └── TestPersonne.java
+├── TP04
+│   ├── ex26
+│   │   └── TestTableauMain.java
+│   ├── ex27
+│   │   ├── TestVectN.java
+│   │   └── VectN.java
+│   ├── ex28
+│   │   ├── Assiette.java
+│   │   ├── Pile.java
+│   │   └── TestPile.java
+│   └── ex29
+│       ├── TestTrianglePascal.java
+│       └── TrianglePascal.java
+├── TP05
+│   ├── ex35
+│   │   ├── Cone.java
+│   │   └── TestCone.java
+│   ├── ex36
+│   │   ├── Alea.java
+│   │   └── TestAlea.java
+│   └── ex37
+│       ├── Personne.java
+│       ├── Projet.java
+│       ├── TestProjet.java
+│       └── Trio.java
+├── TP06
+│   ├── ex41
+│   │   ├── Guitare.java
+│   │   ├── Instrument.java
+│   │   ├── Orchestre.java
+│   │   ├── Piano.java
+│   │   └── TestOrchestre.java
+│   └── ex42
+│       ├── AMoteur.java
+│       ├── Camion.java
+│       ├── SansMoteur.java
+│       ├── TestVehicule.java
+│       ├── Vehicule.java
+│       ├── Velo.java
+│       └── Voiture.java
+├── TP07
+│   ├── ex49
+│   │   ├── APatte.java
+│   │   ├── Animal.java
+│   │   ├── Boa.java
+│   │   ├── Menagerie.java
+│   │   ├── SansPatte.java
+│   │   ├── TestAnimal.java
+│   │   └── Vache.java
+│   └── ex50
+│       ├── Carre.java
+│       ├── Cercle.java
+│       ├── Ellipse.java
+│       ├── Figure.java
+│       ├── Figure2D.java
+│       ├── Rectangle.java
+│       └── TestFigure.java
+├── TP08
+│   ├── ex55
+│   │   ├── Arbre.java
+│   │   ├── Champignon.java
+│   │   ├── ChampignonToxique.java
+│   │   ├── Crepe.java
+│   │   ├── Foret.java
+│   │   ├── Panier.java
+│   │   ├── Pin.java
+│   │   ├── Ramassable.java
+│   │   ├── TestForet.java
+│   │   └── Toxique.java
+│   └── t
+│       └── a.java
+├── TP09
+│   └── PAS_DE_TPP.java
+└── TP10
+    ├── ex64
+    │   └── TestSleep.java
+    ├── ex65
+    │   ├── DivisionParZeroException.java
+    │   ├── EntierBorne.java
+    │   ├── HorsBornesException.java
+    │   └── TestEntierBorne.java
+    └── ex66
+        ├── Etudiant.java
+        ├── TabNotesPleineException.java
+        └── TestEtudiants.java
