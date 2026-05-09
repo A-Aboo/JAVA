@@ -2,7 +2,7 @@
   <img src="Su.svg.png" alt="Sorbonne Université" width="170"/>
 </p>
 
-# Programmation Orientée Objet — TP 1 - TP 11
+# Programmation Orientée Objet — TP 1 - TP 10
 
 ---
 
